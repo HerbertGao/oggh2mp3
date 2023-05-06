@@ -10,7 +10,7 @@ ffmpeg将vorbis的音频文件转换成mp3，再将png文件压入mp3文件，�
 
 因为不熟悉相关工具包用法，选择了一个比较笨的方式来转换，待以后学习之后再改良吧。
 
-## Dependence
+## Dependencies
 
 - Command Line Tools
   - `xcode-select --install`
@@ -18,3 +18,9 @@ ffmpeg将vorbis的音频文件转换成mp3，再将png文件压入mp3文件，�
   - `pip3 install icnsutil`
 - ffmpeg
   - `brew install ffmpeg`
+
+## Usage
+```shell
+chmod +x oggh2mp3.sh
+oggh2mp3 [INPUT.oggh]
+```
