@@ -8,3 +8,6 @@ oggh格式的音频文件为vorbis格式，专辑封面是icns格式的10张图�
 ffmpeg将vorbis的音频文件转换成mp3，再将png文件压入mp3文件，获得最终结果。
 
 因为不熟悉相关工具包用法，选择了一个比较笨的方式来转换，待以后学习之后再改良吧。
+
+## Thanks to
+[relikd/icnsutil](https://github.com/relikd/icnsutil)
