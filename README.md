@@ -13,13 +13,14 @@ ffmpeg将vorbis的音频文件转换成mp3，再将png文件压入mp3文件，�
 ## Dependencies
 
 - Command Line Tools
-  - `xcode-select --install`
+    - `xcode-select --install`
 - [relikd/icnsutil](https://github.com/relikd/icnsutil)
-  - `pip3 install icnsutil`
+    - `pip3 install icnsutil`
 - ffmpeg
-  - `brew install ffmpeg`
+    - `brew install ffmpeg`
 
 ## Usage
+
 ```shell
 chmod +x oggh2mp3.sh
 oggh2mp3 [INPUT.oggh]
